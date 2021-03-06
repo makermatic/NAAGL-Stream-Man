@@ -1,1 +1,1 @@
-worker: nodecg start
+worker node index.js
