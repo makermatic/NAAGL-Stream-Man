@@ -38,5 +38,8 @@ docs
 
 /instrumented
 
+# Node Modules
+/bundles/naggl_bundle/node_modules
+
 # Don't ignore .empty_directory files
 !.empty_directory
