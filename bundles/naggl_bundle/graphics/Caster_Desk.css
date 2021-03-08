@@ -1,0 +1,37 @@
+body {
+	background: black 0% 0% no-repeat padding-box;
+	background-image: url("casterDesk1x.png");
+	top: 0px;
+	left: 0px;
+	width: 1920px;
+	height: 1080px;
+	opacity: 1;
+}
+
+#leftCaster {
+    position: absolute;
+    top: 259px;
+    left: 71px;
+    width: 261px;
+    height: 51px;
+    text-align: left;
+    font: normal normal 900 45px/54px Proxima Nova;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+}
+
+#rightCaster {
+    position: absolute;
+    top: 259px;
+    left: 971px;
+    width: 261px;
+    height: 51px;
+    text-align: left;
+    font: normal normal 900 45px/54px Proxima Nova;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+}

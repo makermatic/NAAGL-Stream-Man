@@ -41,6 +41,11 @@
         "file": "VAL_scoreboard.html",
         "width": 1920,
         "height": 1080
+      },
+      {
+        "file": "Caster_Desk.html",
+        "width": 1920,
+        "height": 1080
       }
     ]
   },
