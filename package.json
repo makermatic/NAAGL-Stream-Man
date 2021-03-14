@@ -94,6 +94,7 @@
     "passport-local": "^1.0.0",
     "passport-steam": "^1.0.10",
     "passport-twitch-helix": "^1.1.0",
+    "production": "0.0.2",
     "raven": "^2.6.4",
     "raven-js": "^3.27.2",
     "semver": "^6.0.0",
