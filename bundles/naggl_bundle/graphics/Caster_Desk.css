@@ -10,6 +10,8 @@ body {
 
 #leftCaster {
     position: absolute;
+    text-transform: uppercase;
+
     top: 259px;
     left: 71px;
     width: 261px;
@@ -24,6 +26,8 @@ body {
 
 #rightCaster {
     position: absolute;
+    text-transform: uppercase;
+
     top: 259px;
     left: 971px;
     width: 261px;
