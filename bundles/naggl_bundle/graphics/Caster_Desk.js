@@ -8,3 +8,8 @@ nodecg.listenFor('updateCasters', (data) => {
 	LCaster.innerHTML = data.leftCaster
 	RCaster.innerHTML = data.rightCaster
 })
+
+nodecg.listenFor('swapCasters', (data) => {
+	RCaster.innerHTML = data.leftCaster
+	LCaster.innerHTML = data.rightCaster
+})

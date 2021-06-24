@@ -19,3 +19,8 @@ nodecg.listenFor('updateTeams', (data) => {
 	team1Name.innerHTML = data.team1Name
 	team2Name.innerHTML = data.team2Name
 })
+
+nodecg.listenFor('swapTeams', (data) => {
+	team2Name.innerHTML = data.team1Name
+	team1Name.innerHTML = data.team2Name
+})
