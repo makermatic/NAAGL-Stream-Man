@@ -24,3 +24,16 @@ nodecg.listenFor('swapTeams', (data) => {
 	team2Name.innerHTML = data.team1Name
 	team1Name.innerHTML = data.team2Name
 })
+
+nodecg.listenFor('scoresoffToggle', (data) => {
+	console.log('hit')
+	if (data.value) {
+		document.body.style.backgroundImage = 'url("./layoutb01.png")';
+		team1.style.display = 'none';
+		team2.style.display = 'none';
+	} else {
+		document.body.style.backgroundImage = 'url("./layout1x.png")';
+		team1.style.display = 'block';
+		team2.style.display = 'block';
+	}
+})
