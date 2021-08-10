@@ -1,6 +1,6 @@
 body {
 	background: black 0% 0% no-repeat padding-box;
-	background-image: url("layout1x.png");
+	background-image: url("InGameBo3.png");
 	top: 0px;
 	left: 0px;
 	width: 1920px;
@@ -9,53 +9,54 @@ body {
 }
 
 .score {
+	/* Master Properties for Score Numbers */
 	position: absolute;
 	text-align: center;
-	font: normal normal bold 25px/30px Industry;
+	font: normal normal bold 32px Poppins;
 	letter-spacing: 0px;
-	color: #FFFFFF;
+	color:black;
 	opacity: 1;
-	top: 46px;
-	width: 62px;
-	height: 32px;
+	top: 27px;
+	width: 37px;
+	height: 45px;
 }
 
 #team1 {
-	left: 841px;
+	left: 174px;
 }
 
 #team2 {
-	left: 1019px;
+	left: 1710px;
 }
 
 #team1Name {
 	position: absolute;
 	text-transform: uppercase;
 
-	top: 99px;
-	left: 830px;
-	width: 68px;
-	height: 29px;
+	top: 30px;
+	left: 216px;
+	width: 173px;
+	height: 39px;
 
-	text-align: center;
-	font: normal normal bold 25px/30px Proxima Nova;
-	letter-spacing: 0px;
+	text-align: left;
+	font: normal normal bold 28px Poppins;
 	color: #FFFFFF;
+	box-shadow: 0px 3px 6px #00000029;
 	opacity: 1;
-}
+	}
 
 #team2Name {
 	position: absolute;
 	text-transform: uppercase;
 
-	top: 99px;
-	left: 1022px;
-	width: 68px;
-	height: 29px;
+	top: 30px;
+	left: 1528px;
+	width: 177px;
+	height: 39px;
 
-	text-align: center;
-	font: normal normal bold 25px/30px Proxima Nova;
-	letter-spacing: 0px;
+	text-align: right;
+	font: normal normal bold 28px Poppins;
 	color: #FFFFFF;
+	box-shadow: 0px 3px 6px #00000029;
 	opacity: 1;
 }
